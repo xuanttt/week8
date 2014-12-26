@@ -1,0 +1,14 @@
+Run options: --seed 19517
+
+# Running:
+
+E
+
+Finished in 0.078459s, 12.7455 runs/s, 0.0000 assertions/s.
+
+  1) Error:
+UsersLoginTest#test_login_with_invalid_information:
+StandardError: No fixture named 'michael' found for fixture set 'users'
+    test/integration/users_login_test.rb:5:in `setup'
+
+1 runs, 0 assertions, 0 failures, 1 errors, 0 skips
